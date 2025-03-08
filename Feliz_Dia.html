@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día de la Mujer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            color: #ff6f61;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .bouquet img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: float 3s ease-in-out infinite;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #555;
+            max-width: 500px;
+            line-height: 1.6;
+            animation: slideIn 2s ease-in-out;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            0% {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz Día de la Mujer!</h1>
+    <div class="bouquet">
+        <img src="https://alirosas.pe/wp-content/uploads/2021/07/ramoderosasamarillasygirasol.jpg" alt="Ramo de flores">
+    </div>
+    <div class="message">
+        <p>
+            En este día especial, quiero recordarte lo increíble que eres. Eres una persona única, llena de luz y alegría, y admiro mucho tu fuerza y tu bondad. Este ramo de flores es un pequeño detalle para decirte que mereces todo lo mejor en la vida. 🌸💐
+        </p>
+        <p>
+            ¡Que tu día esté lleno de amor, felicidad y momentos inolvidables! Gracias por ser tan especial. 💛
+        </p>
+    </div>
+</body>
+</html>
